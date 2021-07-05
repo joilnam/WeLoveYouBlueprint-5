@@ -1,0 +1,129 @@
+.listSection{
+  width: 300px;
+  height: 600px;
+  background-color: #FFFCF3;
+  border-radius: 20px;
+}
+.nav__icon{
+  margin: 20px 20px;
+  display: flex;
+  justify-content: space-between
+}
+.title__header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ filter: drop-shadow(3px 3px 3px rgb(190, 187, 187));
+}
+.profile{
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  filter: drop-shadow(3px 3px 3px rgb(190, 187, 187));
+}
+.title__text__singerName{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.singerName{
+  font-size: 20px;
+  font-weight: 600;
+}
+.title__text__genre{
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.genre{
+  font-size: 10px;
+  font-weight: 600;
+  color: rgba(218, 213, 213, 0.7);
+}
+.icon__box{
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  right: 30px;
+  align-items: center;
+}
+.shuffle{
+  border: none;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(61, 60, 60);
+  filter: drop-shadow(3px 3px 3px rgb(190, 187, 187));
+}
+.likes{
+  border: none;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: 	#fcfff3;
+  filter: drop-shadow(3px 3px 3px rgb(190, 187, 187));
+}
+
+.nextsong__unorderlist{
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+.nextsong__unorderlist__ul{
+  padding: 0 8px;
+  width: 230px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  border-radius: 10px;
+  filter: drop-shadow(3px 3px 3px rgb(190, 187, 187));
+  cursor: pointer;
+}
+.miniImg{
+  width:40px;
+  height: 40px;
+  border-radius: 10px;
+  filter: drop-shadow(3px 3px 3px rgb(190, 187, 187));
+}
+.nextsong__unorderlist__ul__textbox{
+  text-align: center;
+  padding-left: 10px;
+}
+.minisong{
+  font-size: 13px;
+  font-weight: 600;
+}
+.minisongBox{
+  display: flex;
+  padding-right:  20px;
+  align-items: center;
+}
+#nextsong_2{
+  transform: scale(1.1);
+  filter: drop-shadow(8px 8px 8px rgb(119, 119, 105));
+}
+.playingControl{
+  padding: 20px 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(214, 205, 187);
+  border-radius: 12px;
+  filter: drop-shadow(3px 3px 3px rgb(194, 194, 164));
+}
+#genre2{
+  font-size: 12px;
+}
+
